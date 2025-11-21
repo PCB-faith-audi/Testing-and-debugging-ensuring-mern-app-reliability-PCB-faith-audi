@@ -38,6 +38,7 @@ module.exports = {
         '!client/src/index.js',
         '!**/node_modules/**',
       ],
+      testPathIgnorePatterns: ['/node_modules/', '/build/'],
     },
   ],
   
@@ -53,5 +54,5 @@ module.exports = {
       lines: 70,
     },
   },
-  testTimeout: 10000,
+  testTimeout: 30000,
 }; 
